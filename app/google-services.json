@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413866250423",
+    "project_id": "clickit-7c30b",
+    "storage_bucket": "clickit-7c30b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413866250423:android:7d5c63c2cc40331707bd32",
+        "android_client_info": {
+          "package_name": "com.example.clickit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413866250423-7b4cpgkats0ke3e05uj22o3o94pnm3mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByHPhtKVzYFSOi2f59PMD22AyCx-Q01Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413866250423-7b4cpgkats0ke3e05uj22o3o94pnm3mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

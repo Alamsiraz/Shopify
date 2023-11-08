@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/applogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="A few clicks is all it takes."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_logo"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/primary"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_login_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Already have an Account ? Login "
+/>
+<androidx.appcompat.widget.AppCompatButton
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/main_join_btn"
+android:background="@drawable/input_design"
+android:padding="20dp"
+    android:layout_marginBottom="8dp"
+    android:textColor="@color/white"
+android:textAllCaps="false"
+android:textSize="18sp"
+android:text="Join Now"
+app:layout_constraintBottom_toTopOf="@id/main_login_btn"
+   />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
